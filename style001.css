@@ -1,0 +1,57 @@
+ /* h1 { */
+    /* font-size: 150px; */
+    /* text-decoration: wavy; */
+    /* text-decoration: dashed red 10px underline; */
+    /* text-align: center; */
+    /* text-decoration: dotted red 10px underline; */
+    /* text-decoration: double red 10px underline; */
+ /* } */
+
+ /* p {
+    font-size: 25px;
+    width: 200px;
+    letter-spacing: 20px; */
+    /* word-spacing: 50px;
+ }
+
+ /* h1 {
+   font-size: 150px;
+   text-shadow: 0px 10px 0px #e32121;
+   text-align: center;
+ } */
+
+ /* .app {
+   width: 100px;
+   height: 100px;
+} */
+
+body {
+   background-color: #3d3d3d;
+}
+
+/* h1 {
+   text-shadow: 0px 0px 100px rgb(0, 255, 30);
+   font-size: 150px;
+   color: blue;
+   text-align: center;
+} */
+
+/* h1 {
+   text-shadow: 5px 5px 0px #29ffff,
+   10px 10px 0 red,
+   12px 12px 0 green;
+   font-size: 150px;
+   color: #6479a9;
+   text-align: center;
+} */
+
+p {
+   color: #fff;
+   font-size: 250px;
+   text-align: center;
+   text-shadow: 5px 5px 0px #fff,
+   15px 10px 0px rgb(255, 0, 0),
+   20px 15px 0px yellow,
+   25px 20px 0px dodgerblue,
+   30px 25px 0px rgb(153, 0, 255);
+}

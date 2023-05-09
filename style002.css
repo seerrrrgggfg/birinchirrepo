@@ -1,0 +1,16 @@
+.box {
+    width: 100%;
+    height: auto;
+    background-color: red;
+    /* overflow: auto; */
+    /* overflow-y: auto; */
+    /* overflow-x: scroll; */
+}
+
+img {
+    float: right;
+}
+
+/* p {
+    width: 300px;
+} */

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(0, 0, 133);
+}
+
+.container {
+    width: 300px;
+    height: 450px;
+    border-radius: 45% 45% 50px 50px;
+    background-color: #fff;
+    position: relative;
+}
+
+.container_wrp {
+    width: 100px;
+    height: 30px;
+    margin-top: 150%;
+    background-color: rgb(69, 5, 0);
+    position: absolute;
+    left: 100px;
+}
+
+.core {
+    width: 100px;
+    height: 100px;
+    border-radius: 0 0 30px 30px;
+    background-color: rgba(255, 51, 0, 0.834);
+    margin-top: 30px;
+}

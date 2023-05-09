@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(0, 20, 87);
+}
+
+.navbar {
+    width: 600px;
+    height: 500px;
+    border-radius: 50% 0 50% 0;
+    background-color: blue;
+    position: relative;
+}
+
+.navbar_wrp {
+    width: 600px;
+    height: 500px;
+    border-radius: 50% 0 50% 0;
+    background-color: #998235;
+    position: absolute;
+    left: 25%;
+}
+
+.main {
+    width: 500px;
+    height: 500px;
+    border-radius: 50% 0 50% 0;
+    background-color: #FCBE5C;
+    position: absolute;
+    left: 25%;
+}

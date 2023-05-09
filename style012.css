@@ -1,0 +1,56 @@
+.container {
+    width: 1200px;
+    height: 550px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 180px;
+    text-align: center;
+}
+
+.box {
+    display: grid;
+    place-items: center;
+    background-color: yellow;
+    margin: 20px;
+    border-radius: 50px;
+    color: #000000;
+}
+
+.box:nth-child(2) {
+    background-color: blue;
+}
+
+.box:nth-child(3) {
+    background-color: yellowgreen;
+}
+
+.box:nth-child(4) {
+    background-color: blueviolet;
+}
+
+.box:nth-child(5) {
+    background-color: orange;
+}
+
+.box:nth-child(6) {
+    background-color: violet;
+}
+
+.box:nth-child(7) {
+    background-color: khaki;
+}
+
+.box:nth-child(8) {
+    background-color: indigo;
+    color: #fff;
+}
+
+.fa-brands {
+    font-size: 50px;
+}
+
+.fa-solid {
+    font-size: 50px;
+}

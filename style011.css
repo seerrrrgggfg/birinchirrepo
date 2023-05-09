@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: firebrick;
+    margin: 20px;
+}
+
+.box:nth-child(3n) {
+    background-color: blue;
+}
+
+/* .box:nth-child(odd) {
+    background-color: yellowgreen;
+}
+
+.box:nth-child(even) {
+    background-color: darkcyan;
+} */

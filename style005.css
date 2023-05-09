@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 53px;
+    background-color: #000000ab;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  .navbar__container {
+    width: 100%;
+    max-width: 1024px;
+    color: #fff;
+    list-style-type: none;
+  }
+  
+  .navbar__container > li {
+    font-size: 13px;
+    color: #ffffffb7;
+  }
+  
+  .navbar__container > li:hover {
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .iphone__14pro {
+    width: 100%;
+    height: 70vh;
+    background-image: url("https://www.apple.com/v/home/ay/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_largetall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .pro__text {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 40%;
+    top: 13%;
+  }
+  
+  .pro__text > h1 {
+    font-size: 65px;
+  }
+  .pro__text > h3 {
+    font-size: 40px;
+    font-weight: 400;
+  }
+  
+  .link__container {
+    width: 300px;
+    height: 40px;
+  }
+  
+  .link__container > a {
+    color: #2997ff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .iphone__14 {
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://www.apple.com/v/home/ay/images/heroes/iphone-14/hero_iphone14_yellow__eun20sn4imi6_largetall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .iphone__14 > .pro__text {
+    color: #000;
+    left: 30%;
+    text-align: center;
+  }
+  
+  .link__container {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .watch {
+    width: 100%;
+    height: 80vh;
+    background-image: url("https://www.apple.com/v/home/ay/images/heroes/apple-watch-series-8/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_largetall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .watch > .pro__text {
+    top: 8%;
+  }
+  
+  .app__container {
+    width: 100%;
+    height: 90vh;
+  }
+  
+  .www__devs {
+    width: 50%;
+    height: 100%;
+    background-image: url("https://www.apple.com/v/home/az/images/promos/wwdc23-announce/promo_wwdc23__b68ptht3mro2_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .text__container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 100px;
+    color: #fff;
+  }
+  
